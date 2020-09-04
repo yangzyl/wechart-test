@@ -1,3 +1,5 @@
 <view class="container">
-111111111
+    <button open-type="getPhoneNumber" bindgetphonenumber="getPhoneNumber">授权</button>
+    <button open-type="getUserInfo" bindgetuserinfo="getuserinfo">授权</button>
+    <van-button type="primary">按钮</van-button>
 </view>
